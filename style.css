@@ -1,0 +1,24 @@
+.navbar
+{
+    display: flex;
+    margin: 0;
+    padding: o;
+	position: sticky;
+	width: 100%;
+	height: 35px;
+	background:darksalmon;
+	top: 0;
+	text-align: center;
+color: darksalmon;
+font-size: xx-large;
+border: 19px;
+border-bottom: 65px;
+text-size-adjust: 1000px;
+}
+
+#photos{
+	border: 1px solid rgb(211, 170, 170);
+	border-radius: 4px;
+	padding: 5px;
+	width: 150px;
+}

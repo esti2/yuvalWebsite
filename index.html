@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    #div1{
+      width: 400px;
+      height: 500px;
+      background-image: url("1.jpg");
+      background-size: 100% 100%;
+      animation: anim ease-in-out 20S infinite;
+    }
+    @keyframes anim {
+      0%{
+        background-image: url("1.jpg");
+      }
+      20%{
+        background-image: url("2.jpg");
+      }
+      40%{
+        background-image: url("3.jpg");
+      }
+      60%{
+        background-image: url("4.jpg");
+      }
+      80%{
+        background-image: url("5.jpg");
+      }  
+      100%{
+        background-image: url("1.jpg");
+      }
+    }
+  </style>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body style="background-color: darksalmon;">
+<div class="navbar">
+<li><a href="#about">About Me</a></li>
+<li><a href="#photos">My Photos</a></li>
+<li><a href="#playlist">My Playlist</a></li>
+<li><a href="#like">Like</a></li>
+<li><a href="#qrcoder">QR code</a></li>
+<li><a href="#spa">SPA Q&A</a></li>
+<li><a href="#contact">Contact Me</a></li>
+</div>
+		  
+<section id="about" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<hr>
+<h1>about me</h1>
+<hr>
+<br/>
+<br/>
+</section>
+
+
+<br/>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<hr>
+<h1>my photos</h1><hr>
+<section id="photos" class="section"></section>
+<br/>
+<div id="div1">
+</div>
+</section>
+
+<section id="playlist" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<hr>
+<h1>my playlist</h1>
+<hr>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6PBHhtBSpsI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br/>
+<br/>
+</section>
+
+<section id="like" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<hr>
+<h1>give me a like</h1>
+<hr>
+<br/>
+<br/>
+</section>
+
+<section id="qrcoder" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<hr>
+<h1>scan my code</h1>
+<hr>
+<br/>
+<br/>
+</section>
+
+<section id="spa" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<hr>
+<h1>ans<h1>
+<hr>
+<br/>
+<br/>
+</section>
+
+<section id="contact" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<hr>
+<h1>contact me</h1>
+<hr>
+<br/>
+<br/>
+</section>
+
+
+<script type="text/javascript">
+$(function(){
+  $("#nav a").click(function(e){
+    e.preventDefault();
+    $('html,body').scrollTo(this.hash,this.hash); 
+  });
+});
+</script>
+<script type="text/javascript">
+ $(document).scroll(function() {
+    $('#menu').toggle($(this).scrollTop()>1000)
+ });​
+ </script>
+</body>
+</html>
